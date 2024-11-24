@@ -63,13 +63,3 @@ class TsuchanList:
                 return True
         except:
             return False
-
-if __name__ == "__main__":
-    a  = TsuchanList([1, 4, 3, 5, 8])
-    a.pop()
-    if 4 in a:
-        print(a)
-    a.popleft()
-    if 1 in a:
-        print(a)
-    print(a)
