@@ -8,7 +8,7 @@ import sys
 import sys #3度目の正直
 input = sys.stdin.readline
 set = SortedSet
-sys.setrecursionlimit(10**8)
+sys.setrecursionlimit(10**8) # 再帰関数の上限の変更
 
 # 入力関連
 def II(): return int(input())
