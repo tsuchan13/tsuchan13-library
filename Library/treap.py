@@ -129,7 +129,3 @@ class Treap:
                 node = node.right
         return res if res is not None else self.size
     def __str__(self): return f"Treap[{', '.join(str(self[i]) for i in range(self.size))}]"
-
-tr = Treap([1, 2, 3, 4])
-tr.pop(-1)
-print(tr)
