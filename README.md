@@ -2,10 +2,12 @@
 このライブラリは<a href="https://atcoder.jp/users/tsuchan13">tsuchan13</a>(緑コーダー)がAtcoderで使っているライブラリです。
 # ライブラリの内容
 このライブラリには`main.py`と2つのフォルダーで構成されています。
-## main.py
+## <a href='https://github.com/tsuchan13/tsuchan13-library/blob/main/main.py'>main.py</a>
 main.pyは全てのプログラム共通のテンプレートです。
 入力関連の関数やライブラリのimport等が書いてあります。
-## Library
+バンバンしてるAAは個人的なお気に入り。
+昔は┌(^o^┐)┐こいつがいた。
+## <a href='https://github.com/tsuchan13/tsuchan13-library/tree/main/Library'>Library</a>
 Libraryフォルダーには何かを判定するプログラムやデータ構造などがあります。
 ### <a href='https://github.com/tsuchan13/tsuchan13-library/blob/main/Library/is_prime.py'>is_prime.py</a>
 名前の通り素数を判定するプログラムです。
@@ -31,7 +33,7 @@ ChatGPTに作らせました。
 平方数かどうか判定するライブラリです。
 計算量はO(log n)です。
 内部で二分探索しているようです。
-### <a href='https://github.com/tsuchan13/tsuchan13-library/blob/main/Library/soinsuubunkai.py'>soinsuubunkai.py</a>
+### <a href='https://github.com/tsuchan13/tsuchan13-library/blob/main/Library/soinsubunkai.py'>soinsubunkai.py</a>
 素因数分解してくれるライブラリです。
 素因数分解の英語ってなんなんだろう。
 計算量は`O(√N)`です。
